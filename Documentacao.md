@@ -43,6 +43,14 @@ A arquitetura da API segue o padrão **Cliente-Servidor** e é baseada em camada
 
 ---
 
+## 📂 Coleção do Postman
+
+A coleção de requisições do Postman já está pronta para facilitar os testes da API.  
+👉 [Baixe a coleção aqui](./postman_collection.json)
+
+Depois, importe esse arquivo no Postman e você poderá testar todos os endpoints rapidamente.
+
+
 
 
 ### Diagrama de Arquitetura
