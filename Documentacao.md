@@ -15,7 +15,7 @@ A API é o elo de comunicação entre dois sistemas principais:
 
 ---
 
-
+<br>
 
 ## 📌 Documentação das Rotas da API
 
@@ -34,6 +34,7 @@ A API é o elo de comunicação entre dois sistemas principais:
   - Padrão: normal.
 
 ---
+<br>
 
 ## 🏗️ Arquitetura da API
 A arquitetura da API segue o padrão **Cliente-Servidor** e é baseada em camadas para garantir modularidade e separação de responsabilidades.  
@@ -42,6 +43,7 @@ A arquitetura da API segue o padrão **Cliente-Servidor** e é baseada em camada
 
 
 ---
+<br>
 
 ## 📂 Coleção do Postman
 
@@ -50,8 +52,7 @@ A coleção de requisições do Postman já está pronta para facilitar os teste
 
 Depois, importe esse arquivo no Postman e você poderá testar todos os endpoints rapidamente.
 
-
-
+<br>
 
 ### Diagrama de Arquitetura
 ```mermaid
