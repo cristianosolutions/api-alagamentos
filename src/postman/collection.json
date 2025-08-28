@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "063529b3-40e1-4c12-a162-851509a27d53",
+		"name": "API de Alagamentos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31548695"
+	},
+	"item": [
+		{
+			"name": "Registrar Alerta (POST)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"bairro\": \"Copacabana\",\n    \"nivel_agua\": 1.5,\n    \"status\": \"alerta\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/alertas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"alertas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listar Alertas por Bairro (GET)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/alertas/Copacabana",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"alertas",
+						"Copacabana"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
