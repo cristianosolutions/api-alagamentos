@@ -44,4 +44,24 @@ A solução visa fornecer **informações em tempo real** para a população de 
    npm test
    ```
    O Jest irá executar todos os testes e você deverá ver um resultado como `4 passed, 4 total`, confirmando que sua API está robusta e confiável.
+   <br>
+
+---
+
+## 🚀 Instruções de Execução via Postman/Insomnia
+
+   Para testar a API, siga os passos:
+
+1. Certifique-se de que o servidor **Node.js** esteja rodando:
+
+npm start
+
+
+Utilize a coleção JSON abaixo para importar todas as rotas e requisições para o seu cliente HTTP (Postman ou Insomnia).
+
+No Postman: File -> Import -> Raw text e cole o JSON.
+
+No Insomnia: Create -> Import from Clipboard.
+
+Após importar, você terá uma coleção com as duas requisições prontas para uso.
    
