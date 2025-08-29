@@ -50,14 +50,15 @@ A solução visa fornecer **informações em tempo real** para a população de 
 ---
 <br>
 
-## 🚀 Instruções de Execução via Postman/Insomnia
+## 🚀 Instruções de Execução via Postman
 
    **Para testar a API, siga os passos:**
 
-1. Certifique-se de que o servidor **Node.js** esteja rodando:
+1. Certifique-se de que o servidor **Node.js** esteja rodando e o **MongoDB**:
    ```bash
    npm start
    ```
+   Executa o servidor **Node.js**
 2. Utilize a coleção JSON abaixo para importar todas as rotas e requisições para o seu cliente HTTP
    <br>
    (Postman).
