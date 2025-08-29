@@ -62,7 +62,9 @@ A solução visa fornecer **informações em tempo real** para a população de 
    <br>
    (Postman).
    
-3. No **Postman:** File -> Import -> Raw text e cole o JSON.
+   👉 [Aqui está a coleção pronta para importar:](https://github.com/cristianosolutions/api-alagamentos/blob/main/src/postman/collection.json)
+   
+4. No **Postman:** File -> Import -> Raw text e cole o JSON.
    <br><br>
    Após importar, você terá uma coleção com as duas requisições prontas para uso.
 
