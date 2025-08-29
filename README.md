@@ -31,3 +31,17 @@ A solução visa fornecer **informações em tempo real** para a população de 
 3. **Instalar as dependências**
    ```bash
    npm install
+4. **No terminal, execute o comando para iniciar o servidor**
+   ```bash
+   npm start   
+   ```
+   Você deverá ver a mensagem: Servidor rodando na porta 3000 e MongoDB Conectado: localhost
+   
+6. **Rodando os Testes**
+   <br>
+   Para rodar os testes unitários e verificar se tudo está funcionando como o esperado
+   ```bash
+   npm test
+   ```
+   O Jest irá executar todos os testes e você deverá ver um resultado como `4 passed, 4 total`, confirmando que sua API está robusta e confiável.
+   
