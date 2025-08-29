@@ -19,6 +19,7 @@ A solução visa fornecer **informações em tempo real** para a população de 
 - [Nodemon](https://www.npmjs.com/package/nodemon)
 
 ---
+<br>
 
 ## 📦 Como Executar a API
 
@@ -47,21 +48,23 @@ A solução visa fornecer **informações em tempo real** para a população de 
    <br>
 
 ---
+<br>
 
 ## 🚀 Instruções de Execução via Postman/Insomnia
 
-   Para testar a API, siga os passos:
+   **Para testar a API, siga os passos:**
 
 1. Certifique-se de que o servidor **Node.js** esteja rodando:
+   ```bash
+   npm start
+   ```
+2. Utilize a coleção JSON abaixo para importar todas as rotas e requisições para o seu cliente HTTP
+   <br>
+   (Postman).
+   
+3. No **Postman:** File -> Import -> Raw text e cole o JSON.
+   <br><br>
+   Após importar, você terá uma coleção com as duas requisições prontas para uso.
 
-npm start
-
-
-Utilize a coleção JSON abaixo para importar todas as rotas e requisições para o seu cliente HTTP (Postman ou Insomnia).
-
-No Postman: File -> Import -> Raw text e cole o JSON.
-
-No Insomnia: Create -> Import from Clipboard.
-
-Após importar, você terá uma coleção com as duas requisições prontas para uso.
+---
    
