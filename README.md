@@ -24,4 +24,10 @@ A solução visa fornecer **informações em tempo real** para a população de 
 
 1. **Clonar o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/api-alagamentos.git
+   https://github.com/cristianosolutions/api-alagamentos      
+2. **Entrar na pasta do projeto**
+   ```bash
+   cd api-alagamentos
+3. **Instalar as dependências**
+   ```bash
+   npm install
