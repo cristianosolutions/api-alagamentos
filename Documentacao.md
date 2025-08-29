@@ -19,19 +19,67 @@ A API é o elo de comunicação entre dois sistemas principais:
 
 ## 📌 Documentação das Rotas da API
 
- **🔹 1. Endpoint:** POST /api/alertas
+ **🔹 1. Endpoint:** `POST /api/alertas`
 
 - **Descrição:** Usado pelo sistema de monitoramento para enviar um novo alerta.
 
 - **Parâmetros (Body JSON):**
 
-- bairro (string, obrigatório): O nome do bairro.
+- `bairro` (string, obrigatório): O nome do bairro.
 
-- nivel_agua (number, obrigatório): O nível da água em metros.
+- `nivel`_agua (number, obrigatório): O nível da água em metros.
 
-- status (string, opcional): Pode ser emergencia, alerta ou normal.
+- `status` (string, opcional): Pode ser `emergencia`, `alerta` ou `normal`.
 
-  - Padrão: normal.
+  - Padrão: `normal`.
+    <br>
+### Exemplo de Requisição
+```json
+{
+  "bairro": "Copacabana",
+  "nivel_agua": 1.5,
+  "status": "alerta"
+}
+```
+
+### Exemplo de Resposta (201 Created)
+  ```json
+  {
+  "mensagem": "Alerta registrado com sucesso!",
+  "alerta": {
+    "bairro": "Copacabana",
+    "nivel_agua": 1.5,
+    "status": "alerta",
+    "_id": "60a8c2f1b0a8c5a4d4e6f8a0"
+    }
+}
+```
+<br>
+
+**🔹 2. Endpoint:** `GET /api/alertas/:bairro`
+
+- **Descrição:** Usado pelo sistema de alerta para consultar os alertas mais recentes de um bairro específico.
+
+- **Parâmetros (URL):**
+
+ - `bairro` (string, obrigatório): O nome do bairro a ser consultado.
+
+### Exemplo de Requisição
+
+`GET http://localhost:3000/api/alertas/Copacabana`
+### Exemplo de Resposta (200 OK)
+```json
+[
+  {
+    "_id": "60a8c2f1b0a8c5a4d4e6f8a0",
+    "bairro": "Copacabana",
+    "nivel_agua": 1.5,
+    "status": "alerta",
+    "data_alerta": "2023-10-27T10:00:00.000Z"
+  }
+]
+```
+<br>
 
 ---
 <br>
