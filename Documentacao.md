@@ -14,7 +14,6 @@ A API é o elo de comunicação entre dois sistemas principais:
 
 
 ---
-
 <br>
 
 ## 📌 Documentação das Rotas da API
@@ -79,7 +78,19 @@ A API é o elo de comunicação entre dois sistemas principais:
   }
 ]
 ```
+
 <br>
+
+---
+
+<br>
+
+## 📂 Coleção do Postman
+
+A coleção de requisições do Postman já está pronta para facilitar os testes da API.  
+👉 [Baixe ou copie a coleção aqui](https://github.com/cristianosolutions/api-alagamentos/blob/main/src/postman/collection.json)
+
+Depois, importe esse arquivo no Postman e você poderá testar todos os endpoints rapidamente.
 
 ---
 <br>
@@ -92,15 +103,6 @@ A arquitetura da API segue o padrão **Cliente-Servidor** e é baseada em camada
 
 ---
 <br>
-
-## 📂 Coleção do Postman
-
-A coleção de requisições do Postman já está pronta para facilitar os testes da API.  
-👉 [Baixe ou copie a coleção aqui](https://github.com/cristianosolutions/api-alagamentos/blob/main/src/postman/collection.json)
-
-Depois, importe esse arquivo no Postman e você poderá testar todos os endpoints rapidamente.
-
----
 
 ### Diagrama de Arquitetura
 ```mermaid
