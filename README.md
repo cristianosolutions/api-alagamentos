@@ -8,3 +8,20 @@ A API atua como um **hub central** para coletar dados de sensores de monitoramen
 A solução visa fornecer **informações em tempo real** para a população de bairros costeiros, minimizando riscos e agilizando a resposta a eventos de alagamento.
 
 ---
+<br>
+
+## 🚀 Tecnologias Utilizadas
+
+- [Node.js](https://nodejs.org/)  
+- [Express.js](https://expressjs.com/)  
+- [MongoDB](https://www.mongodb.com/)  
+- [Mongoose](https://mongoosejs.com/)  
+- [Nodemon](https://www.npmjs.com/package/nodemon)
+
+---
+
+## 📦 Como Executar a API
+
+1. **Clonar o repositório**
+   ```bash
+   git clone https://github.com/seu-usuario/api-alagamentos.git
