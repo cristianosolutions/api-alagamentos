@@ -30,6 +30,7 @@ A API é o elo de comunicação entre dois sistemas principais:
 
 - **Segurança:** A API deve proteger as informações, impedindo acessos não autorizados e garantindo a integridade dos dados. (Embora não implementado no código de exemplo, este é um requisito crucial para uma aplicação real).
 
+- **Escalabilidade:** A arquitetura da API deve ser capaz de lidar com um aumento no número de requisições, seja de mais sensores ou mais sistemas de alerta consumindo os dados.
 
 ---
 <br>

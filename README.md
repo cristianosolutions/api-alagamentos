@@ -75,7 +75,7 @@ A solução visa fornecer **informações em tempo real** para a população de 
 
 ## Documentação API
 
-[Clique aqui para visualizr a documentação da API:](https://github.com/cristianosolutions/api-alagamentos/blob/main/doc/architecture.md)
+[Clique aqui para visualizar a documentação da API:](https://github.com/cristianosolutions/api-alagamentos/blob/main/doc/architecture.md)
 
 <br><br>   
 
