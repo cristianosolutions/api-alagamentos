@@ -71,7 +71,7 @@ A solução visa fornecer **informações em tempo real** para a população de 
 
 ---
 
-<br><br>
+<br>
 
 ## Documentação API
 
