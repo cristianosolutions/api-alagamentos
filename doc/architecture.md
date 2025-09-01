@@ -11,6 +11,24 @@ A API é o elo de comunicação entre dois sistemas principais:
 
 👉 A API simplifica essa comunicação, garantindo que os dados de alagamento cheguem de forma rápida e padronizada aos destinatários finais.
 
+<br>
+
+## ⚙️ Requisitos Funcionais
+- **Registro de Alertas:** A API deve permitir que um sistema externo envie dados de alagamento (como bairro, nível da água e status) e os armazene no banco de dados.
+
+- **Consulta de Alertas por Bairro:** A API deve permitir que um sistema externo consulte e receba a lista de alertas de alagamento para um bairro específico.
+
+- **Validação de Dados:** A API deve validar os dados recebidos nas requisições, garantindo que campos obrigatórios (como `bairro` e `nivel_agua`) estejam presentes.
+
+- **Resposta Padronizada:** A API deve fornecer respostas em formato JSON, seguindo um padrão consistente para sucesso e erro.
+<br>
+
+## ⚙️ Requisitos Não Funcionais
+- **Disponibilidade:** A API deve estar disponível 24/7 para receber e fornecer dados em tempo real, já que a informação sobre alagamentos é crítica.
+
+- **Confiabilidade:** O sistema deve garantir que os dados de alertas sejam armazenados corretamente no banco de dados e recuperados sem perdas.
+
+- **Segurança:** A API deve proteger as informações, impedindo acessos não autorizados e garantindo a integridade dos dados. (Embora não implementado no código de exemplo, este é um requisito crucial para uma aplicação real).
 
 
 ---
