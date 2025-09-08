@@ -23,9 +23,9 @@ A solução visa fornecer **informações em tempo real** para a população de 
 
 ## 📦 Como Executar a API
 
-1. **Clonar o repositório**
+1. **Clonar o repositório ou baixar**
    ```bash
-   https://github.com/cristianosolutions/api-alagamentos      
+   https://github.com/cristianosolutions/api-alagamentos.git      
 2. **Entrar na pasta do projeto**
    ```bash
    cd api-alagamentos
